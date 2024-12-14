@@ -8,6 +8,32 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    
+    <div id="searchBar">
+        <form id="searchForm" method="post">
+            <div id="left">
+                <label for="location">Search a location</label>
+                <input type="text" required id="location" minlength="3">
+
+                <button type="button" id="search">Search</button>
+            </div>
+            
+            <div id="options">
+                <label for="toggle">Show me temperature in</label>
+                <div class="option">
+                    <input type="radio" name="toggle" id="celsius" required>
+                    <label for="celsius">Celsius</label>
+                </div>
+                <div class="option">
+                    <input type="radio" name="toggle" id="fahrenheit" required>
+                    <label for="fahrenheit">Fahrenheit</label>
+                </div>
+            </div>            
+            
+        </form>
+    </div>
+    <div id="results">
+
+    </div>
+   
 </body>
 </html>

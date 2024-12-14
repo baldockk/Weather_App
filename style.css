@@ -7,4 +7,63 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: purple;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchBar {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+#search {
+    font-weight: bolder;
+}
+
+input, #search , label{
+    font-size: 20px;
+}
+
+#results {
+    display: flex;
+    width: 85%;
+    background-color: white;
+    height: 70%;
+    margin-top: 20px;
+}
+
+#searchForm {
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 10px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
 }
