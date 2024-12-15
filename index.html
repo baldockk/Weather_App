@@ -20,11 +20,11 @@
             <div id="options">
                 <label for="toggle">Show me temperature in</label>
                 <div class="option">
-                    <input type="radio" name="toggle" id="celsius" required>
+                    <input type="radio" name="toggle" id="celsius" required value="celsius">
                     <label for="celsius">Celsius</label>
                 </div>
                 <div class="option">
-                    <input type="radio" name="toggle" id="fahrenheit" required>
+                    <input type="radio" name="toggle" id="fahrenheit" required value="=fahrenheit">
                     <label for="fahrenheit">Fahrenheit</label>
                 </div>
             </div>            
@@ -32,7 +32,21 @@
         </form>
     </div>
     <div id="results">
-
+        <div id="temperature">
+            <h2 id="temp">Temperature:</h2>
+        </div>
+        <div id="condition">
+            <h2 id="cond">Condition:</h2>
+        </div>
+        <div id="humidity">
+            <h2 id="humid">Humidity:</h2>
+        </div>
+        <div id="datetime">
+            <h2 id="time">Time:</h2>
+        </div>
+        <div id="windspeed">
+            <h2 id="wind">Wind Speed:</h2>
+        </div>
     </div>
    
 </body>
