@@ -128,9 +128,9 @@ function populateDivs(temp, cond, humi, time, wind) {
 
   tempContent.textContent = temp;
   condContent.textContent = cond;
-  humidContent.textContent = humi;
+  humidContent.textContent = humi + "%";
   timeContent.textContent = time;
-  windContent.textContent = wind;
+  windContent.textContent = wind + "kph";
 
   tempDiv.appendChild(tempContent);
   condDiv.appendChild(condContent);
@@ -154,11 +154,11 @@ function clearDivs() {
   windDiv.innerHTML = "";
 
   //Add the titles back to the html
-  const tempTitle = document.createElement("h3");
-  const condTitle = document.createElement("h3");
-  const humidTitle = document.createElement("h3");
-  const timeTitle = document.createElement("h3");
-  const windTitle = document.createElement("h3");
+  const tempTitle = document.createElement("h2");
+  const condTitle = document.createElement("h2");
+  const humidTitle = document.createElement("h2");
+  const timeTitle = document.createElement("h2");
+  const windTitle = document.createElement("h2");
 
   tempTitle.textContent = "Temperature:";
   condTitle.textContent = "Condition:";

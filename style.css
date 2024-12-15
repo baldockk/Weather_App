@@ -38,7 +38,6 @@ input, #search , label{
     width: 85%;
     background-color: white;
     height: 70%;
-    margin-top: 20px;
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
     justify-items: center;
@@ -75,3 +74,8 @@ input, #search , label{
     align-items: center;
     gap: 10px; 
 }
+
+h3 {
+    text-align: center;
+}
+
